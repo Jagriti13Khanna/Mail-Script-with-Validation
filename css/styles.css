@@ -1,0 +1,134 @@
+body {
+    margin: 0 auto;
+    width: 700px;
+}
+
+.container {
+    background: #d99ac5b6;
+    /* padding: 5rem; */
+    margin-top: 5rem;
+}
+
+h1,
+h2,
+h3 {
+    text-align: center;
+}
+
+h1 {
+    background: #b37ba4;
+    font-size: 2.5rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    padding: 1rem;
+}
+
+footer {
+    background: #b37ba4;
+    padding: 1rem;
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+h2,
+h3 {
+    font-size: 2rem;
+}
+
+ul {
+    list-style:disc;
+    padding: 1.5rem 3rem;
+    color: #120055;
+}
+
+li {
+    padding: 0.5rem;
+    font-size: 1.4rem;
+    color: #120055;
+}
+
+a {
+    text-decoration: none;
+    color: #120055;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #1f74d0;
+    border-bottom: 1px solid #1f74d0;
+    font-weight: bold;
+}
+
+.links {
+    margin: 0 auto;
+    max-width: 550px;
+    padding-bottom: 3rem;
+}
+
+/* form */
+.form-p {
+    padding-bottom: 3rem;
+}
+
+form {
+    max-width: 500px;
+    /* margin: 0 auto; */
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 0rem 3rem;
+}
+
+.form-input {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem 0rem;
+}
+
+label {
+    flex-basis: 35%;
+}
+
+input[type=submit] {
+    width: 40%;
+    margin-left: auto;
+    padding: 0.5rem;
+    margin-top: 1rem;
+    margin-right: 2rem;
+}
+
+input,
+textarea {
+    flex-basis: 63%;
+}
+
+.alert {
+    color: rgb(172, 8, 8);
+    text-align: left;
+}
+
+/*    
+.error {
+    background-color:rgba(248, 0, 0, 0.254);
+} */
+
+h5 {
+    color: rgba(255, 0, 0, 0.864);
+    padding: 0.5rem;
+    background-color:rgba(248, 0, 0, 0.254);
+    float: right;
+    text-align: center;
+    font-size: 1.2rem;
+    width: 100%;
+}
+
+.status {
+    padding: 1rem 1rem 2rem;
+}
+
+h4 {
+    font-size: 1.4rem;
+    text-align: center;
+}
